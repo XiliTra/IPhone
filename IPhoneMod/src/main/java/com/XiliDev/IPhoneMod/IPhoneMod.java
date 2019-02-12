@@ -11,13 +11,17 @@ import proxy.CommonProxy;
 import utils.References;
 
 @Mod(modid = References.MODID , name = References.NAME , version = References.VERSION )
-public class IPhoneMod {
-
-    @SidedProxy(clientSide = References.CLIENT_PROXY, serverSide = References.SERVER_PROXY)
-    private static CommonProxy proxy;
+public class IPhoneMod
+{
 
     @Mod.Instance(References.MODID)
     public static IPhoneMod instance;
+
+
+
+    @SidedProxy(clientSide = References.CLIENT_PROXY, serverSide = References.SERVER_PROXY)
+    public static CommonProxy proxy;
+
 
     public IPhoneMod()
     {
