@@ -1,6 +1,6 @@
 package com.XiliDev.IPhoneMod.init;
 
-import com.XiliDev.IPhoneMod.MonItem.CSMMItem;
+import com.XiliDev.IPhoneMod.item.CSMMItem;
 import com.google.common.collect.Lists;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
