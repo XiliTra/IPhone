@@ -1,10 +1,11 @@
 package proxy;
 
-public class CommonProxy {
+public abstract class CommonProxy {
 
     public void preinit() {
 
     }
+
 
     public void init() {
 

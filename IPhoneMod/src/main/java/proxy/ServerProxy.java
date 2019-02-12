@@ -12,4 +12,12 @@ public class ServerProxy extends CommonProxy{
     public void init() {
         super.preinit();
     }
+
+    @Override
+    public void postInit()
+    {
+        super.postInit();
+
+    }
 }
+
